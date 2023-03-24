@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-    more_numbers();
-    return (0);
+more_numbers();
+return (0);
 }
 
