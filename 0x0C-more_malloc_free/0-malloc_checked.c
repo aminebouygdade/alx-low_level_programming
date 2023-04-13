@@ -1,4 +1,4 @@
-#inlucde <stdlib>
+#include <stdlib.h>
 #include "main.h"
 
 /**
