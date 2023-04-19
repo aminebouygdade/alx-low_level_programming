@@ -9,15 +9,16 @@
 	 */
 void array_iterator(int *array, sie_t size, void(*action)(int))
 {
-	unsigned int i;
+		unsigned int i;
 
-	if (array == NULL || action == NULL)
-		return;
 
-	for (i = 0; i < size; i++)
+		if (array == NULL || action == NULL)
+			return;
+
+
+		for (i = 0; i < size; i++)
 		{
 			action(array[i]);
 		}
 	}
-
 
