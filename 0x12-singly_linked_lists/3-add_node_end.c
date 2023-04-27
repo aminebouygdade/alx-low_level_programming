@@ -3,11 +3,11 @@
 #include "lists.h"
 
 /**
- * add_node_end - add new node at the end
- * @head: double pointer to list
- * @str: string
+ * add_node_end - adds a new node to linked list
+ * @head: double pointer to  list
+ * @str: string node
  *
- * Return: address of new elem or NULL
+ * Return: address ofnew element, or NULL
  */
 list_t *add_node_end(list_t **head, const char *str)
 {
@@ -33,7 +33,7 @@ list_t *add_node_end(list_t **head, const char *str)
 	}
 
 	while (temp->next)
-		temps = temp->next;
+		temp = temp->next;
 
 	temp->next = new;
 
