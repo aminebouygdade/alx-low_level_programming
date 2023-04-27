@@ -36,5 +36,7 @@ list_t *add_node_end(list_t **head, const char *str)
 		temps = temp->next;
 
 	temp->next = new;
+
 	return (new);
 }
+
